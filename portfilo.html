@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HAMZA</title>
+    <style>
+      .skill {
+        color: yellow;
+      }
+      .skill {
+        color: yellow;
+      }
+      .navbar-nav .nav-link:hover {
+        color: #FFD700; /* Change the color to gold on hover */
+      }
+      .skill-box:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+      }
+      .project-box:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+      }
+      .experience-item:hover {
+        background-color: #f8f9fa;
+        transition: background-color 0.3s ease;
+      }
+      .contact-item:hover {
+        color: #17a2b8;
+        transition: color 0.3s ease;
+      }
+      @media (max-width: 767.98px) {
+        .navbar-nav .nav-link {
+          text-align: center;
+          padding: 10px;
+        }
+        .hero-content, .hero-image {
+          flex: 1 1 100%;
+          text-align: center;
+        }
+        .container.d-flex.align-items-center {
+          flex-direction: column;
+        }
+        .about .left, .about .right {
+          flex: 1 1 100%;
+        }
+      }
+    </style>
+    <link href="portfolio.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+          <a class="navbar-brand" href="#">HAMZA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#skill">My Skills</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#project">My Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+<header class="hero" id="home">
+  <div class="container d-flex align-items-center">
+    <div class="hero-content text-left">
+      <h1>I'M <span>Hamza</span></h1>
+      <p>SOFTWARE DESINGEER AND ENGNEERING</p>
+      <a href="#contact" class="btn btn-primary">Contact Me</a>
+    </div>
+    <div class="hero-image">
+      <img src="gt.jpg" alt="Ivan Dan" class="img-fluid">
+    </div>
+  </div>
+</header>
+
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container d-flex align-items-center">
+        <div class="left flex-1"></div>
+        <div class="right flex-1">
+          <h1>About <span>Me</span></h1>
+          <h3>Hello! I'm HAMZA</h3>
+          <p class="intro" id="intro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci distinctio obcaecati aliquid, quia tempora quis optio repudiandae officia earum?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <div class="socials">
+            <a href="https://www.facebook.com/"><img src="instagram.png" width="40px" alt="Instagram"></a>
+            <a href="https://www.facebook.com/"><img src="facebook.png" width="40px" alt="Facebook"></a>
+            <a href="https://github.com/"><img src="twitter.gif" width="40px" alt="Twitter"></a>
+            <a href="https://github.com/"><img src="github.png" width="40px" alt="GitHub"></a>
+          </div>
+          <div>
+            <button class="btn btn-secondary">View Portfolio</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="my-skills" id="skill">
+      <div class="container text-center">
+        <h1 class="skill">My Skills</h1>
+        <div class="row">
+          <!-- Skill Boxes -->
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="javaicon.png" alt="Java Skill">
+              <h2>JAVA</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="mysqlicon.png" alt="MySQL Skill">
+              <h2>MySQL</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="htmlicon.png" alt="HTML Skill">
+              <h2>HTML</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="css.png" alt="CSS Skill">
+              <h2>CSS</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="jsicon.png" alt="JavaScript Skill">
+              <h2>JavaScript</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="giticon.png" alt="Git Skill">
+              <h2>Git</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="reacticon.png" alt="React Skill">
+              <h2>React</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="nodejs.png" alt="Python Skill">
+              <h2>Node js</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-box">
+              <img src="firebase.png" alt="Django Skill">
+              <h2>Firebase</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="my-project" id="project">
+      <div class="container text-center">
+        <h1>My Projects</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="project-box">
+              <img src="project 1.png" alt="Project 1">
+              <h2>WEATHER WEB</h2>
+              <ul>
+                <li>Bulid With JS And Rest API</li>
+                <li>SHOW CURRECT WEATHER DATA AND 7 DAYS </li>
+                <li>API INTEGRATION AND SHOW ALSO WITH GEOPOSTION</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-box">
+              <img src="project2.png" alt="Project 2">
+              <h2>INVENTORY</h2>
+              <ul>
+                <li>DESIGN WITH JAVA SWING AND MYQL FOR DATABASE</li>
+                <li>MANAGE CURRECT AND HISTORY SALES DATA RECORD WITH EACH DATA</li>
+                <li>MAKE PRODUCT LIST WITH SELL PRICE AND COST PRICE</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-box">
+              <img src="project3.png" alt="Project 3">
+              <h2>FOOD RESTAURANT</h2>
+              <ul>
+                <li>REACT FRAMEWORK AND PHP FOR FRONTEND </li>
+                <li>FIREBASE AS BACKEND AN DATABASE</li>
+                <li>ORDERING SYSTEM,MENU,CONTACT AND SEO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+      <div class="container text-center">
+        <h1>Experience</h1>
+        <div class="experience-item">
+          <span class="year">2020</span>
+          <div class="details">
+            <h2>Python Developer</h2>
+            <h3>XYZ Company</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat id nobis facilis officiis illo sapiente ab maiores incidunt sit.</p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <span class="year">2018</span>
+          <div class="details">
+            <h2>Front-End Developer</h2>
+            <h3>ABC Corp</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat id nobis facilis officiis illo sapiente ab maiores incidunt sit.</p>
+          </div>
+        </div>
+        <div class="experience-item">
+          <span class="year">2016</span>
+          <div class="details">
+            <h2>INTERSHIP</h2>
+            <h3>TECH</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat id nobis facilis officiis illo sapiente ab maiores incidunt sit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contact-section" id="contact">
+      <div class="container text-center">
+        <h1>Contact Me</h1>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>hamzawaris@email.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>03191698088</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Sukkur,Pakistan</span>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>“Thanks for Scrolling”</p>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="portfilo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+/* Global Styles */
+:root {
+  --primary: #1c1c1e;
+  --secondary: #ffd700;
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary);
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: var(--secondary) !important;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero.jpg') no-repeat center center/cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 span {
+  color: var(--secondary);
+}
+
+.hero .btn {
+  background-color: var(--secondary);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* About Section */
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about .socials img {
+  margin: 10px;
+}
+
+/* Skills Section */
+.my-skills {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.skill-box {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.skill-box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.skill-box h2 {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+/* Projects Section */
+.my-project {
+  padding: 50px 0;
+}
+
+.project-box {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.project-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.project-box h2 {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+/* Experience Section */
+.experience-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.year {
+  font-size: 2rem;
+  color: var(--secondary);
+  margin-right: 20px;
+}
+
+.details {
+  text-align: left;
+}
+
+.details h2, .details h3 {
+  margin-bottom: 10px;
+}
